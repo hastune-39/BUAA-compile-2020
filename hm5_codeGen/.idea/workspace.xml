@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e35cb444-8446-4798-9d6b-f6604130bb61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/middle/Optimize.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/middle/Optimize.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/target/GenMips.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/target/GenMips.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/target/MipsOp.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/CMakeFiles/ChainList.dir/target/MipsOp.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/ChainList.exe" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/ChainList.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/mips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/mips.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/cmake-build-debug/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/cmake-build-debug/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/hm5_code.zip" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/hm5_code.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/middle/Optimize.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/middle/Optimize.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/target/GenMips.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/target/GenMips.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/target/GenMips.h" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/target/GenMips.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/target/MipsOp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/target/MipsOp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5_code/target/MipsOp.h" beforeDir="false" afterPath="$PROJECT_DIR$/hm5_code/target/MipsOp.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hm5_code" />
+  </component>
+  <component name="ProjectId" id="1lui2FyM4nZ5B7kR501kS8jKHMH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e35cb444-8446-4798-9d6b-f6604130bb61" name="Default Changelist" comment="" />
+      <created>1608453167364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608453167364</updated>
+      <workItem from="1608453168532" duration="441000" />
+      <workItem from="1608469827984" duration="799000" />
+      <workItem from="1608539274612" duration="2767000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608469886734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608469886734" />
+  </component>
+</project>

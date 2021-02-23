@@ -1,0 +1,798 @@
+.data
+var: .space 1024
+tempVar: .space 1024
+thisisaenter: .asciiz "\n"
+str0: .asciiz "a4"
+str1: .asciiz "18231217"
+str2: .asciiz "134214321432143214321"
+str3: .asciiz "yes"
+.text
+li $s2, 1
+sw $s2, 0
+li $s2, 2
+sw $s2, 4
+li $s2, 3
+sw $s2, 8
+li $s2, 4
+sw $s2, 12
+li $s2, 5
+sw $s2, 16
+li $s2, 97
+sw $s2, 32
+li $s2, 97
+sw $s2, 36
+li $s2, 97
+sw $s2, 40
+li $s2, 97
+sw $s2, 44
+li $s2, 88
+sw $s2, 48
+li $s2, 52
+sw $s2, 52
+li $s2, 101
+sw $s2, 76
+li $s2, 49
+sw $s2, 80
+li $s2, 6
+sw $s2, 84
+li $s2, 7
+sw $s2, 88
+li $s2, 8
+sw $s2, 92
+li $s2, 9
+sw $s2, 96
+li $s2, 10
+sw $s2, 100
+li $s2, 11
+sw $s2, 104
+li $v0, 5
+syscall
+sw $v0, 56
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $s2, -1
+li $s3, 51
+mul $s1, $s2, $s3
+sw $s1, 1040
+lw $s2, 1040
+li $s3, 3
+mul $s1, $s2, $s3
+sw $s1, 1048
+lw $s2, 56
+lw $s3, 1048
+mul $s1, $s2, $s3
+sw $s1, 1052
+lw $s2, 1052
+sw $s2, 56
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 5
+syscall
+sw $v0, 84
+lw $s2, 3
+sw $s2, 88
+li $v0, 5
+syscall
+sw $v0, 88
+li $v0, 12
+syscall
+sw $v0, 32
+li $v0, 12
+syscall
+sw $v0, 64
+li $s2, -1
+lw $s3, 4
+mul $s1, $s2, $s3
+sw $s1, 1068
+lw $s2, 1068
+sw $s2, 56
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+lw $s2, 56
+lw $s3, 56
+mul $s1, $s2, $s3
+sw $s1, 1080
+lw $s2, 1080
+sw $s2, 56
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+lw $s2, 56
+sw $s2, 56
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $s2, -1
+li $s3, 97
+mul $s1, $s2, $s3
+sw $s1, 1100
+li $s2, -1
+li $s3, 97
+mul $s1, $s2, $s3
+sw $s1, 1108
+li $s2, -1
+li $s3, 97
+mul $s1, $s2, $s3
+sw $s1, 1116
+lw $s2, 1108
+lw $s3, 1116
+sub $s1, $s2, $s3
+sw $s1, 1120
+lw $s2, 1100
+lw $s3, 1120
+sub $s1, $s2, $s3
+sw $s1, 1124
+lw $s2, 1124
+li $s3, 258
+sub $s1, $s2, $s3
+sw $s1, 1132
+lw $s2, 0
+li $s3, 14
+add $s1, $s2, $s3
+sw $s1, 1140
+li $s2, 13
+lw $s3, 1140
+mul $s1, $s2, $s3
+sw $s1, 1144
+lw $s2, 1132
+lw $s3, 1144
+add $s1, $s2, $s3
+sw $s1, 1148
+lw $s2, 1148
+sw $s2, 56
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+li $a0, -117
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+lw $s2, 80
+sw $s2, 72
+lw $s2, 32
+sw $s2, 68
+lw $s2, 3
+sw $s2, 0
+lw $s2, 3
+sw $s2, 4
+lw $s2, 3
+sw $s2, 56
+lw $s2, 3
+sw $s2, 60
+lw $s2, 3
+sw $s2, 16
+lw $s2, 3
+sw $s2, 84
+lw $s2, 3
+sw $s2, 92
+li $s2, 20
+lw $s3, 96
+add $s1, $s2, $s3
+sw $s1, 1204
+lw $s2, 1204
+sw $s2, 96
+lw $s2, 0
+li $s3, 21
+add $s1, $s2, $s3
+sw $s1, 1212
+lw $s2, 1212
+sw $s2, 100
+lw $s2, 0
+lw $s3, 100
+add $s1, $s2, $s3
+sw $s1, 1220
+lw $s2, 1220
+sw $s2, 104
+li $v0, 11
+li $a0, 97
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 0
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+lw $s2, 0
+li $s3, 97
+add $s1, $s2, $s3
+sw $s1, 1236
+li $v0, 1
+lw $a0, 1236
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $s2, -1
+li $s3, 5
+mul $s1, $s2, $s3
+sw $s1, 1248
+li $s2, 5
+lw $s3, 1248
+mul $s1, $s2, $s3
+sw $s1, 1252
+li $s2, -1
+lw $s3, 1252
+mul $s1, $s2, $s3
+sw $s1, 1256
+li $v0, 1
+lw $a0, 1256
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 4
+la, $a0, str0
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 60
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+li $a0, 3
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 4
+la, $a0, str1
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+li $a0, 18231217
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 11
+li $a0, 49
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 11
+li $a0, 57
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $s2, -1
+li $s3, 49
+mul $s1, $s2, $s3
+sw $s1, 1284
+li $s2, 57
+lw $s3, 56
+mul $s1, $s2, $s3
+sw $s1, 1288
+lw $s2, 1284
+lw $s3, 1288
+sub $s1, $s2, $s3
+sw $s1, 1292
+li $s2, -1
+li $s3, 3
+mul $s1, $s2, $s3
+sw $s1, 1300
+li $s2, 14
+lw $s3, 1300
+mul $s1, $s2, $s3
+sw $s1, 1304
+lw $s2, 1292
+lw $s3, 1304
+add $s1, $s2, $s3
+sw $s1, 1308
+lw $s2, 1308
+li $s3, 36
+add $s1, $s2, $s3
+sw $s1, 1316
+li $v0, 1
+lw $a0, 1316
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 0
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 4
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 92
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 96
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 100
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 104
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 4
+la, $a0, str2
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $s2, -1
+lw $s3, 4
+mul $s1, $s2, $s3
+sw $s1, 1360
+lw $s2, 1360
+lw $s3, 16
+add $s1, $s2, $s3
+sw $s1, 1364
+lw $s2, 0
+lw $s3, 1364
+mul $s1, $s2, $s3
+sw $s1, 1368
+lw $s2, 4
+lw $s3, 0
+add $s1, $s2, $s3
+sw $s1, 1376
+lw $s2, 1376
+li $s3, 2
+add $s1, $s2, $s3
+sw $s1, 1380
+lw $s2, 1368
+lw $s3, 1380
+div $s2, $s3
+mflo $s1
+sw $s1, 1384
+lw $s2, 56
+lw $s3, 1384
+sub $s1, $s2, $s3
+sw $s1, 1388
+li $s2, -1
+lw $s3, 0
+mul $s1, $s2, $s3
+sw $s1, 1396
+lw $s2, 0
+lw $s3, 1396
+mul $s1, $s2, $s3
+sw $s1, 1400
+lw $s2, 1388
+lw $s3, 1400
+sub $s1, $s2, $s3
+sw $s1, 1404
+lw $s2, 1404
+li $s3, 15
+add $s1, $s2, $s3
+sw $s1, 1408
+lw $s2, 1408
+lw $s3, 84
+add $s1, $s2, $s3
+sw $s1, 1412
+lw $s2, 104
+lw $s3, 1412
+mul $s1, $s2, $s3
+sw $s1, 1416
+li $s2, -1
+lw $s3, 1416
+mul $s1, $s2, $s3
+sw $s1, 1420
+li $s2, -1
+lw $s3, 60
+mul $s1, $s2, $s3
+sw $s1, 1428
+lw $s2, 1428
+lw $s3, 4
+add $s1, $s2, $s3
+sw $s1, 1432
+lw $s2, 56
+lw $s3, 1432
+mul $s1, $s2, $s3
+sw $s1, 1436
+lw $s2, 1420
+lw $s3, 1436
+add $s1, $s2, $s3
+sw $s1, 1440
+lw $s2, 1440
+lw $s3, 88
+add $s1, $s2, $s3
+sw $s1, 1444
+li $v0, 1
+lw $a0, 1444
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+lw $s2, 76
+lw $s3, 84
+mul $s1, $s2, $s3
+sw $s1, 1464
+li $s2, 43
+lw $s3, 1464
+add $s1, $s2, $s3
+sw $s1, 1468
+lw $s2, 60
+lw $s3, 1468
+add $s1, $s2, $s3
+sw $s1, 1472
+lw $s2, 96
+li $s3, 50
+mul $s1, $s2, $s3
+sw $s1, 1480
+lw $s2, 1480
+li $s3, 1470
+sub $s1, $s2, $s3
+sw $s1, 1488
+li $s2, 3
+lw $s3, 1488
+mul $s1, $s2, $s3
+sw $s1, 1492
+li $s2, -1
+li $s3, 45
+mul $s1, $s2, $s3
+sw $s1, 1500
+lw $s2, 0
+lw $s3, 4
+add $s1, $s2, $s3
+sw $s1, 1508
+lw $s2, 1500
+lw $s3, 1508
+sub $s1, $s2, $s3
+sw $s1, 1512
+lw $s2, 32
+lw $s3, 60
+add $s1, $s2, $s3
+sw $s1, 1524
+lw $s2, 40
+lw $s3, 96
+add $s1, $s2, $s3
+sw $s1, 1532
+lw $s2, 1524
+lw $s3, 1532
+mul $s1, $s2, $s3
+sw $s1, 1536
+lw $s2, 1536
+li $s3, 100
+div $s2, $s3
+mflo $s1
+sw $s1, 1540
+li $s2, 69
+lw $s3, 1540
+sub $s1, $s2, $s3
+sw $s1, 1544
+lw $s2, 96
+li $s3, 14
+sub $s1, $s2, $s3
+sw $s1, 1556
+lw $s2, 84
+lw $s3, 1556
+mul $s1, $s2, $s3
+sw $s1, 1560
+li $s2, 342
+lw $s3, 1560
+sub $s1, $s2, $s3
+sw $s1, 1564
+lw $s2, 1544
+lw $s3, 1564
+mul $s1, $s2, $s3
+sw $s1, 1568
+lw $s2, 1568
+li $s3, 4
+div $s2, $s3
+mflo $s1
+sw $s1, 1572
+lw $s2, 1512
+lw $s3, 1572
+sub $s1, $s2, $s3
+sw $s1, 1576
+lw $s2, 1492
+lw $s3, 1576
+mul $s1, $s2, $s3
+sw $s1, 1580
+lw $s2, 1472
+lw $s3, 1580
+sub $s1, $s2, $s3
+sw $s1, 1584
+li $s2, 97
+lw $s3, 1584
+mul $s1, $s2, $s3
+sw $s1, 1588
+lw $s2, 1588
+li $s3, 42
+add $s1, $s2, $s3
+sw $s1, 1592
+li $s2, -1
+lw $s3, 1592
+mul $s1, $s2, $s3
+sw $s1, 1596
+lw $s2, 1596
+li $s3, 0
+sub $s1, $s2, $s3
+sw $s1, 1600
+li $s2, 4
+lw $s3, 0
+mul $s1, $s2, $s3
+sw $s1, 1604
+lw $s2, 1600
+lw $s3, 1604
+add $s1, $s2, $s3
+sw $s1, 1608
+lw $s2, 1608
+sw $s2, 0
+li $v0, 1
+lw $a0, 0
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 60
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 92
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 11
+lw $a0, 32
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+lw $s2, 0
+lw $s3, 0
+add $s1, $s2, $s3
+sw $s1, 1632
+lw $s2, 1632
+sw $s2, 4
+lw $s2, 100
+lw $s3, 40
+add $s1, $s2, $s3
+sw $s1, 1644
+li $s2, -36000
+lw $s3, 1644
+div $s2, $s3
+mflo $s1
+sw $s1, 1648
+lw $s2, 4
+li $s3, 4
+sub $s1, $s2, $s3
+sw $s1, 1672
+li $s2, 12
+lw $s3, 1672
+mul $s1, $s2, $s3
+sw $s1, 1676
+li $s2, 13
+lw $s3, 1676
+mul $s1, $s2, $s3
+sw $s1, 1680
+lw $s2, 84
+li $s3, 24
+add $s1, $s2, $s3
+sw $s1, 1688
+lw $s2, 60
+lw $s3, 1688
+mul $s1, $s2, $s3
+sw $s1, 1692
+lw $s2, 1692
+li $s3, 49
+div $s2, $s3
+mflo $s1
+sw $s1, 1696
+lw $s2, 1696
+li $s3, 10
+mul $s1, $s2, $s3
+sw $s1, 1700
+lw $s2, 1680
+lw $s3, 1700
+add $s1, $s2, $s3
+sw $s1, 1704
+lw $s2, 1704
+li $s3, 14
+sub $s1, $s2, $s3
+sw $s1, 1708
+li $s2, 42
+lw $s3, 4
+mul $s1, $s2, $s3
+sw $s1, 1712
+lw $s2, 1708
+lw $s3, 1712
+add $s1, $s2, $s3
+sw $s1, 1716
+li $s2, 14
+lw $s3, 96
+mul $s1, $s2, $s3
+sw $s1, 1720
+lw $s2, 1716
+lw $s3, 1720
+sub $s1, $s2, $s3
+sw $s1, 1724
+lw $s2, 1724
+lw $s3, 32
+add $s1, $s2, $s3
+sw $s1, 1728
+lw $s2, 1728
+lw $s3, 36
+add $s1, $s2, $s3
+sw $s1, 1732
+lw $s2, 84
+lw $s3, 1732
+add $s1, $s2, $s3
+sw $s1, 1736
+lw $s2, 0
+lw $s3, 56
+sub $s1, $s2, $s3
+sw $s1, 1744
+lw $s2, 4
+li $s3, 61
+mul $s1, $s2, $s3
+sw $s1, 1760
+lw $s2, 1760
+li $s3, 12
+div $s2, $s3
+mflo $s1
+sw $s1, 1764
+lw $s2, 16
+lw $s3, 1764
+sub $s1, $s2, $s3
+sw $s1, 1768
+lw $s2, 56
+lw $s3, 1768
+add $s1, $s2, $s3
+sw $s1, 1772
+lw $s2, 1772
+li $s3, 42
+add $s1, $s2, $s3
+sw $s1, 1776
+lw $s2, 1744
+lw $s3, 1776
+mul $s1, $s2, $s3
+sw $s1, 1780
+lw $s2, 1736
+lw $s3, 1780
+add $s1, $s2, $s3
+sw $s1, 1784
+lw $s2, 1784
+li $s3, 0
+add $s1, $s2, $s3
+sw $s1, 1788
+li $s2, -4
+lw $s3, 1788
+mul $s1, $s2, $s3
+sw $s1, 1792
+lw $s2, 1792
+li $s3, 288
+add $s1, $s2, $s3
+sw $s1, 1796
+lw $s2, 56
+lw $s3, 16
+mul $s1, $s2, $s3
+sw $s1, 1804
+lw $s2, 1804
+lw $s3, 32
+add $s1, $s2, $s3
+sw $s1, 1808
+lw $s2, 1808
+li $s3, 2
+mul $s1, $s2, $s3
+sw $s1, 1812
+lw $s2, 1796
+lw $s3, 1812
+add $s1, $s2, $s3
+sw $s1, 1816
+lw $s2, 1648
+lw $s3, 1816
+div $s2, $s3
+mflo $s1
+sw $s1, 1820
+lw $s2, 60
+li $s3, 12
+sub $s1, $s2, $s3
+sw $s1, 1828
+lw $s2, 1828
+lw $s3, 16
+add $s1, $s2, $s3
+sw $s1, 1832
+lw $s2, 56
+lw $s3, 1832
+mul $s1, $s2, $s3
+sw $s1, 1836
+li $s2, 2
+lw $s3, 4
+add $s1, $s2, $s3
+sw $s1, 1844
+lw $s2, 1836
+lw $s3, 1844
+div $s2, $s3
+mflo $s1
+sw $s1, 1848
+lw $s2, 1820
+lw $s3, 1848
+add $s1, $s2, $s3
+sw $s1, 1852
+lw $s2, 1852
+sw $s2, 56
+li $v0, 1
+lw $a0, 56
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 4
+la, $a0, str3
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 4
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+lw $a0, 60
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
+li $v0, 1
+li $a0, -1
+syscall
+li $v0, 4
+la $a0, thisisaenter
+syscall
